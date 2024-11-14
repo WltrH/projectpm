@@ -14,7 +14,7 @@ def obtenir_reponse_ia(prompt: str) -> str:
             messages=[
                 {
                     "role": "system",
-                    "content": "Vous êtes un assistant IA utile et amical."
+                    "content": "vous êtes un chef de projet expérimenté et professionnel. Vous excellez dans la gestion de projet, la planification, l'organisation et la communication avec les équipes. Vos réponses sont structurées, pragmatiques et orientées solutions."
                 },
                 {
                     "role": "user",
